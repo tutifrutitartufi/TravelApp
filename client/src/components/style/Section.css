@@ -1,0 +1,48 @@
+.travel_app_section_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.travel_app_section_description {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.travel_app_section_stations {
+    position: absolute;
+    right: 15%;
+    top: 55%;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.travel_app_section_description span{
+    font-size: 13px;
+}
+
+.travel_app_section_description span:nth-child(2) {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.travel_app_subsection_container {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+.travel_app_subsection_container {
+    padding-left: 8px;
+}
+
+.travel_app_subsection_container:nth-child(2n - 1) {
+    background-color: rgba(0, 150, 136, 0.2);
+}
+
+.travel_app_subsection_container span:first-child{
+    margin-right: 20px;
+}
